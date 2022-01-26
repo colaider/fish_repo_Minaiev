@@ -60,12 +60,15 @@ class FishShop:
 
 
 class Seller:
-    pass
-
+    def set_price_per_kilo_to_fish(self, name:str):
+        pass
+    def calculate_kilo_of_sold_fish(self):
+        pass
 
 class Buyer:
-    pass
-
+    count_of_money = 0
+    def buy_fish_by_name(self, name:str):
+        pass
 
 potiniti = FishShop()
 potiniti.add_fish("jj", 12.4, 34.4, date(2022, 1, 15))
