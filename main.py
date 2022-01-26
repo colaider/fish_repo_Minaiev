@@ -70,10 +70,10 @@ class Buyer:
     def buy_fish_by_name(self, name:str):
         pass
 
-potiniti = FishShop()
-potiniti.add_fish("jj", 12.4, 34.4, date(2022, 1, 15))
-potiniti.add_fish("jjf", 1.4, 3.4,date(2022, 1, 25))
-potiniti.add_fish("jjg", 132.4, 344.4,date(2022, 1, 10))
-potiniti.get_fish_names_sorted_by_price()
-potiniti.sell_fish("jjf", 1.4)
-potiniti.cast_out_old_fish()
+fish_de_market_la_pizza = FishShop()
+fish_de_market_la_pizza.add_fish("Pachini", 12.4, 34.4, date(2022, 1, 15))
+fish_de_market_la_pizza.add_fish("Pablo", 1.4, 3.4,date(2022, 1, 25))
+fish_de_market_la_pizza.add_fish("Franchesko", 132.4, 344.4,date(2022, 1, 10))
+fish_de_market_la_pizza.get_fish_names_sorted_by_price()
+fish_de_market_la_pizzasell_fish("Pablo", 1.4)
+fish_de_market_la_pizza.cast_out_old_fish()
